@@ -6,16 +6,17 @@ package HomeWorks.HomeWork1;
 public class Task1 {
 
     public static void main(String[] args) {
-        division(10, 0);
+        divide(10, 2);
         
     }
 
 
-    private static void division(int a, int b){
+    private static void divide(int a, int b){
         try {
-            
+            int result = a / b;
+            System.out.printf("%d / %d = %d" , a, b, result );
         } catch (ArithmeticException e) {
-            System.out.println("Деление на ноль нельзя");
+            System.out.println("Divide by zero cannot be");
         }
     }
 }
