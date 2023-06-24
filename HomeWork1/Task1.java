@@ -1,12 +1,26 @@
 package HomeWorks.HomeWork1;
 
+import java.util.Scanner;
+
 /**
  * Task1
  */
+
+
+// Простая задача 1: Проверка деления на ноль
+// Напишите программу, которая запрашивает у пользователя два целых числа и выполняет их деление. 
+// Если второе число равно нулю, выбросите исключение ArithmeticException с сообщением "Деление на ноль недопустимо". Иначе выведите результат деления на экран.
+
+
 public class Task1 {
 
     public static void main(String[] args) {
-        divide(10, 2);
+        System.out.println("Enter a first number");
+        Scanner in = new Scanner(System.in);
+        int first = in.nextInt();
+        System.out.println("Enter a second number");
+        int second = in.nextInt();
+        divide(first, second);
         
     }
 
