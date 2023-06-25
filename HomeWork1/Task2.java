@@ -21,6 +21,7 @@ public class Task2 {
         } catch (InputMismatchException e) {
             System.out.println("Incorrect input");
         }
+        in.close();
     }
 }
 

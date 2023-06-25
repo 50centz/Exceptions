@@ -20,6 +20,7 @@ public class Task1 {
         int first = in.nextInt();
         System.out.println("Enter a second number");
         int second = in.nextInt();
+        in.close();
         divide(first, second);
         
     }
