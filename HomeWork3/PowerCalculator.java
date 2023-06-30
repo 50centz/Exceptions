@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 
 
-public class Task1 {
+public class PowerCalculator {
     public static void main(String[] args) {
         int digit = getDigit("Enter a number: ");
         int degree = getDegree("Enter the degree: ");
